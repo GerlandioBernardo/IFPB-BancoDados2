@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+#campos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+
+}
+#form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(60, 97, 177);
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+select{
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 100px;
+    color: white;
+    background-color: brown;
+    border: none;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(202, 55, 55);
+}
+#mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
