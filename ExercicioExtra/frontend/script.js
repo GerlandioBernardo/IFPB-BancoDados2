@@ -36,7 +36,7 @@ document.querySelector('#buttonBuscar').addEventListener('click', async function
         },
     })
     if(!response.ok){
-        console.log('Erro Novamente');
+        console.log('Erro');
     }
     let data = await response.json();
     let svg = document.querySelector('#svg');
